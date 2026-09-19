@@ -1,0 +1,21 @@
+{
+  "name": "normtag-presence-api",
+  "version": "1.0.0",
+  "description": "External NormTag Presence API for Cloudflare Workers",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test tests/api.test.js",
+    "dev": "node src/app.js",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "minecraft",
+    "normtag",
+    "cloudflare-workers",
+    "durable-objects"
+  ],
+  "author": "NORM",
+  "license": "MIT"
+}
